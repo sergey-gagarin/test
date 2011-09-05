@@ -79,12 +79,14 @@ $_</li>
 
 <ol>
     <li>Merge from remote</li>
+    <li>1. git checkout b_01</li>
+    <li>In case of a new files (commit -a all changes but not a new files-??):</li>
     <li>The switch -a with git-commit DOES NOT ADD files that are not currently being tracked by git.
 WHEREAS; ‘git add .‘ adds files not being tracked by git for commit as well.</li>
-    <li>1. git checkout b_01</li>
-    <li>2. git commit -a // all changes but not a new files-?? </li>
-    <li></li>
-    <li></li>
+    
+    <li>2. git commit -a  </li>
+    <li>3. git push git_test</li>
+    <li>4. cd ../git_test_set3 ( in branch b_02)</li>
     <li></li>
     <li></li>
 </ol>
