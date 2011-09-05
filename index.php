@@ -1,5 +1,9 @@
 <?php
+
 print 'Yesssss 3333 set 33333333 ---- printing from test2 index file!';
+
+print 'Yesssss ---- fdsfsdfg printing from test2 index file!';
+
 print "<a href='file02.php'>go file 2</a>";
 
 print "<a href='file03.php'>go file 3333</a>";
