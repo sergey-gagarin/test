@@ -15,7 +15,7 @@
     <li>7. git branch my_dev // - create a local new branch</li>
     <li>7+ git checkout my_dev // !!!!</li>
     <li>8. some changes</li>
-    <li>9. run: git add file1.php file2.php // ??? add --all ??</li>
+    <li>9. run: git all - Ok; git add file1.php file2.php // ??? add --all ??</li>
     <li>10.run: git commit -a -m 'my commit!' </li>
     <li>11.run: git remote add git_test</li>
     <li>12.run: git push git_test my_dev // - will create a new branch in the repositary!</li>
