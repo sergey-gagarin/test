@@ -79,14 +79,20 @@ $_</li>
 
 <ol>
     <li>Merge from remote</li>
-    <li>1. git checkout b_01</li>
+    <li>1. git checkout b_01 // do changes or create a new file</li>
     <li>In case of a new files (commit -a all changes but not a new files-??):</li>
     <li>The switch -a with git-commit DOES NOT ADD files that are not currently being tracked by git.
 WHEREAS; ‘git add .‘ adds files not being tracked by git for commit as well.</li>
     
-    <li>2. git commit -a  </li>
-    <li>3. git push git_test</li>
-    <li>4. cd ../git_test_set3 ( in branch b_02)</li>
-    <li></li>
-    <li></li>
+    <li>2. git commit -a // commit the changes </li>
+    <li>3. git push git_test  // push it up in the git_test/b_01 branch</li>
+    <li>Time to get the changes from b_01 into b_02</li>
+    <li>4. cd ../git_test_set3  </li>
+    <li>5. git fetch git_test // get all the changes</li>
+    <li>6. git merge remotes/git_test/b_01  // !!! merge changes from b_01 into b_02, conflict !!</li>
+    <li>Conflicts:</li>
+    <li>7. Open with PSPad and fix</li>
+    <li>8. git add index.php</li>
+    <li>9. git commit -a // auto-message : 'merged ...'</li>
+    <li>Done</li>
 </ol>
