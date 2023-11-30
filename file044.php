@@ -1,2 +1,2 @@
 <?php
-print'';
+print'';  // +++
